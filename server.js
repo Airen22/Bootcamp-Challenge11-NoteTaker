@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
-const api = require("./routes/index.js");
-const html = require("./routes/index");
+const api = require('./routes/api');
+const html = require('./routes/index');
 const fs = require('fs');
 
 //run express app
@@ -15,7 +15,7 @@ app.use("/api", api);
 
 app.use(express.static("public"));
 
-app.use("/index", html)
+app.use("./index", html)
 
 // GET Route for homepage
 app.get('/', (req, res) =>
