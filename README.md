@@ -5,6 +5,9 @@ UT Austin coding bootcamp challenge 11 - NoteTaker
 
 This note taker app allows users to create notes that include a title and text content and save it to a database. They can click on previously saved notes to look back on them or they can click the "delete" button to remove them from the list (and subsequently the database). 
 
+The following link is the deployed app on heroku:
+https://bootcamp-challenge11-notetaker.herokuapp.com/
+
 The following image shows an example of the Note Take app with saved notes:
 
 ![](./assets/images/image1.jpg)
